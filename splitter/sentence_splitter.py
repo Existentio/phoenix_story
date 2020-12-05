@@ -69,7 +69,9 @@ req_sample = '1.2.3.4 you must do - this 2.3'
 
 
 
+# todo need label sentence for separating req identifiers from words
 
+# todo need take into account whitespaces at the beginning and in the end of sentence
 def define_sentence_labels():
     sentence_with_labels = label_req_id_start
     idx = 0
