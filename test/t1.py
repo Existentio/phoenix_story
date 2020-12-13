@@ -10,10 +10,24 @@
 #
 #
 
+test_sentence = 'it should take no more'
 
-numbers = ['1','2','3']
-punc_marks = [',','.']
+# it   should   t  a  k  e
+# 01 2 345678 9 10 11 12 13
+for x in range(len(test_sentence)):
+    if test_sentence[x] == ' ':
+        print(x)
+        print('here is whitespace')
 
-s = 'hello, 123..'
+    print(test_sentence[x])
 
+t = {1: 's', 2: 't'}
+s = []
 
+z = {}
+counter = 0
+for x in t:
+    counter += 1
+    z[counter] = t.values()
+
+print(z)

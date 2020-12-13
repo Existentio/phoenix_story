@@ -62,7 +62,7 @@ print(divide_req(test_req_1))
 
 print('===')
 
-req_sample = '1.2.3.4 you must do - this 2.3  after this 2.4 '
+req_sample = '1. hello 1.2.3.4 you must do - this 2.3.3.5.6.643. and it should take <= 0.5 seconds.'
 
 
 # todo need to add req identifiers to list with seperated value i.e. whitespace and slice it to str
@@ -77,13 +77,10 @@ req_sample = '1.2.3.4 you must do - this 2.3  after this 2.4 '
 def define_sentence_labels():
     sentence_with_labels = ''
     counter = 0
+    req_id = 0
 
     for symb in req_sample:
-        if counter == 1:
-            print('ATTENTION' + (req_sample[(req_sample.index(symb))]))
-
         if (req_sample[(req_sample.index(symb))]) in punctuation_marks:
-            counter += 1
             print('here is punctuation mark, moving next: ' + symb)
             sentence_with_labels += (req_sample[(req_sample.index(symb))])
         elif (req_sample[(req_sample.index(symb))]) in simple_numbers:
@@ -91,6 +88,10 @@ def define_sentence_labels():
             print('here is simple number, moving next: ' + symb)
             sentence_with_labels += (req_sample[(req_sample.index(symb))])
         elif (req_sample[(req_sample.index(symb))]) == ' ':
+            # print(sentence_with_labels.index(symb))
+            if counter >= 2:
+                sentence_with_labels += label_req_id_end
+                counter = 0
             sentence_with_labels += (req_sample[(req_sample.index(symb))])
             print('here is whitespace')
 
