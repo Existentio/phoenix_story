@@ -21,7 +21,7 @@ for x in range(len(test_sentence)):
 
     print(test_sentence[x])
 
-t = {1: 's', 2: 't'}
+t = {1: 'main_sentence_without_req_id', 2: 't'}
 s = []
 
 z = {}

@@ -37,8 +37,6 @@ print(simple_numbers)
 
 
 def divide_req(req: str):
-    # todo need req_sample statement here to divide new sentence from in-sentence words like "Mr. Smith",
-    #  or req. № 1.2.1
     tmp = req.split('.')
 
     print('===INPUT===')
@@ -62,7 +60,7 @@ print(divide_req(test_req_1))
 
 print('===')
 
-req_sample = '1. hello 1.2.3.4 you must do - this 2.3.3.5.6.643. and it should take <= 0.5 seconds.'
+req_sample = '1. According to 1.2.3.4 system must .. do it 20 times,  2.3.3.5.6.643 and it should take <= 0.5 seconds.'
 
 
 # todo need to add req identifiers to list with seperated value i.e. whitespace and slice it to str
@@ -81,14 +79,15 @@ def define_sentence_labels():
 
     for symb in req_sample:
         if (req_sample[(req_sample.index(symb))]) in punctuation_marks:
+
             print('here is punctuation mark, moving next: ' + symb)
             sentence_with_labels += (req_sample[(req_sample.index(symb))])
+
         elif (req_sample[(req_sample.index(symb))]) in simple_numbers:
-            counter += 1
+            counter += 2
             print('here is simple number, moving next: ' + symb)
             sentence_with_labels += (req_sample[(req_sample.index(symb))])
         elif (req_sample[(req_sample.index(symb))]) == ' ':
-            # print(sentence_with_labels.index(symb))
             if counter >= 2:
                 sentence_with_labels += label_req_id_end
                 counter = 0
@@ -97,9 +96,34 @@ def define_sentence_labels():
 
         else:
             print('here is sentence character, moving next: ' + symb)
+
             sentence_with_labels += (req_sample[(req_sample.index(symb))])
 
     return sentence_with_labels.strip()
 
 
-print(define_sentence_labels())
+def bind_sentence_words_with_ids():
+    dict_labeled_str = {}
+
+    labeled_str_splitted = define_sentence_labels().split()
+
+    for x in labeled_str_splitted:
+        dict_labeled_str[labeled_str_splitted.index(x)] = x
+
+    return dict_labeled_str
+
+
+def detach_main_sentence():
+    main_sentence_without_req_id = ''
+
+    dict_labeled_str = bind_sentence_words_with_ids()
+
+    for x in dict_labeled_str:
+        if dict_labeled_str[x].find(label_req_id_end) == -1:
+            main_sentence_without_req_id += dict_labeled_str[x] + ' '
+        else:
+            print(dict_labeled_str[x])
+    return main_sentence_without_req_id
+
+
+print(detach_main_sentence())
