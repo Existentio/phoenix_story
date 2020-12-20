@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0113cc-e707-4e02-9f41-6ac197827235" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/req_divider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/ReqConnector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/SemanticsHandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/SentenceLabeler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/StructureHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sentence_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/sentence_labeler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/req_divider.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ReqSeparator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/sentence_labeler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/duplicates/duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/duplicates/duplicates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/t1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unambiguous/unambiguous.py" beforeDir="false" afterPath="$PROJECT_DIR$/unambiguous/unambiguous.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unclear/unclear.py" beforeDir="false" afterPath="$PROJECT_DIR$/unclear/unclear.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,48 +24,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unambiguous/unambiguous.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/duplicates/duplicates.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="826">
+              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unclear/unclear.py">
+        <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="14">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/sentence_labeler.py">
+        <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-868">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="126">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/req_divider.py">
+        <entry file="file://$PROJECT_DIR$/core/ReqSeparator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="140">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/ReqConnector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -69,15 +93,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-919417965/builtins.py">
+        <entry file="file://$PROJECT_DIR$/test/t2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="4776" column="12" selection-start-line="4776" selection-start-column="12" selection-end-line="4776" selection-end-column="12" />
+            <state>
+              <caret selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -100,6 +119,7 @@
       <find>attent</find>
       <find>range</find>
       <find>main_</find>
+      <find>97</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -113,12 +133,24 @@
         <option value="$PROJECT_DIR$/converter/mess_to_req.py" />
         <option value="$PROJECT_DIR$/contradiction/analyzer.py" />
         <option value="$PROJECT_DIR$/no_duplicates/duplicates.py" />
-        <option value="$PROJECT_DIR$/unclear/unclear.py" />
-        <option value="$PROJECT_DIR$/unambiguous/unambiguous.py" />
         <option value="$PROJECT_DIR$/test/t1.py" />
         <option value="$PROJECT_DIR$/splitter/sentence_splitter.py" />
         <option value="$PROJECT_DIR$/core/req_divider.py" />
+        <option value="$PROJECT_DIR$/core/req_separator.py" />
+        <option value="$PROJECT_DIR$/duplicates/duplicates.py" />
+        <option value="$PROJECT_DIR$/unambiguous/unambiguous.py" />
+        <option value="$PROJECT_DIR$/unclear/unclear.py" />
+        <option value="$PROJECT_DIR$/core/req_connector.py" />
+        <option value="$PROJECT_DIR$/core/semantics_handler.py" />
         <option value="$PROJECT_DIR$/core/sentence_labeler.py" />
+        <option value="$PROJECT_DIR$/core/StructureHandler.py" />
+        <option value="$PROJECT_DIR$/core/SentenceLabeler.py" />
+        <option value="$PROJECT_DIR$/core/ReqConnector.py" />
+        <option value="$PROJECT_DIR$/test/t2.py" />
+        <option value="$PROJECT_DIR$/core/NaturalLanguageRecognizer.py" />
+        <option value="$PROJECT_DIR$/core/DefaultLanguageRecognizer.py" />
+        <option value="$PROJECT_DIR$/core/SemanticsHandler.py" />
+        <option value="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" />
       </list>
     </option>
   </component>
@@ -157,21 +189,6 @@
               <item name="PhoenixStory" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="phoenix_story" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoenixStory" type="462c0819:PsiDirectoryNode" />
-              <item name="unambiguous" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoenix_story" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoenixStory" type="462c0819:PsiDirectoryNode" />
-              <item name="unclear" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoenix_story" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoenixStory" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -201,29 +218,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sentence_splitter (1)">
-    <configuration name="duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="phoenix_story" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/no_duplicates" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/no_duplicates/duplicates.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sentence_splitter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SemanticsHandler">
+    <configuration name="DefaultLanguageDefiner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="phoenix_story" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,7 +231,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\sentence_labeler.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sentence_splitter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DefaultLanguageRecognizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="phoenix_story" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,11 +248,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/splitter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\sentence_labeler.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\DefaultLanguageDefiner.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,7 +261,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SemanticsHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="phoenix_story" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/SemanticsHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SentenceLabeler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="phoenix_story" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/SentenceLabeler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StructureHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="phoenix_story" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/StructureHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t2" type="PythonConfigurationType" factoryName="Python">
       <module name="phoenix_story" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,28 +336,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/t1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="unambiguous" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="phoenix_story" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unambiguous" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unambiguous/unambiguous.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/t2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sentence_splitter (1)" />
-        <item itemvalue="Python.sentence_splitter" />
-        <item itemvalue="Python.t1" />
-        <item itemvalue="Python.unambiguous" />
-        <item itemvalue="Python.duplicates" />
+        <item itemvalue="Python.SemanticsHandler" />
+        <item itemvalue="Python.DefaultLanguageDefiner" />
+        <item itemvalue="Python.DefaultLanguageRecognizer" />
+        <item itemvalue="Python.SentenceLabeler" />
+        <item itemvalue="Python.StructureHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608329286876</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sentence labeler refactoring">
+      <created>1608330570312</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608330570312</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -386,12 +431,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,7 +454,8 @@
     <MESSAGE value="first version" />
     <MESSAGE value="add some todos" />
     <MESSAGE value="sentence splitter refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="sentence splitter refactoring" />
+    <MESSAGE value="sentence labeler refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentence labeler refactoring" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -420,27 +466,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/converter/mess_to_req.py" />
-    <entry file="file://$PROJECT_DIR$/duplicates/duplicates.py">
+    <entry file="file://$PROJECT_DIR$/unambiguous/unambiguous.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="56">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/unclear/unclear.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/unambiguous/unambiguous.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-919417965/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="552">
+          <caret line="5100" column="8" selection-start-line="5100" selection-start-column="8" selection-end-line="5100" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -451,24 +493,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-919417965/builtins.py">
+    <entry file="file://$PROJECT_DIR$/duplicates/duplicates.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="4776" column="12" selection-start-line="4776" selection-start-column="12" selection-end-line="4776" selection-end-column="12" />
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/req_divider.py">
+    <entry file="file://$PROJECT_DIR$/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ReqSeparator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/sentence_labeler.py">
+    <entry file="file://$PROJECT_DIR$/core/ReqConnector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-868">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="28">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>

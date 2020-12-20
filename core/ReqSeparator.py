@@ -1,4 +1,3 @@
-
 # minimal potential length of requirement
 min_req_len = 8
 
@@ -8,9 +7,9 @@ test_req_1 = 'При первом открытии приложения "Х" д�
              'Цвет модального окна: #232832.' \
              '1.2.1 В модальном окне при нажатии на "Отмена" выполнение перейдет к п. 1.1. '
 
+
 # todo for future functionality: add notification if requirement
 #  is more than X symbols [offer to divide into 2 reqs and so on]
-
 
 
 def divide_req(req: str):

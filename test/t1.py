@@ -12,7 +12,7 @@
 
 test_sentence = 'it should take no more'
 
-# it   should   t  a  k  e
+# it   should   sentence_labeler  a  k  e
 # 01 2 345678 9 10 11 12 13
 for x in range(len(test_sentence)):
     if test_sentence[x] == ' ':
@@ -21,7 +21,7 @@ for x in range(len(test_sentence)):
 
     print(test_sentence[x])
 
-t = {1: 'main_sentence_without_req_id', 2: 't'}
+t = {1: 'main_sentence_without_req_id', 2: 'sentence_labeler'}
 s = []
 
 z = {}
