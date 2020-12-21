@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d0113cc-e707-4e02-9f41-6ac197827235" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/ReqConnector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/SemanticsHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/SentenceLabeler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/StructureHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/req_divider.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ReqSeparator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/sentence_labeler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duplicates/duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/duplicates/duplicates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/t1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unambiguous/unambiguous.py" beforeDir="false" afterPath="$PROJECT_DIR$/unambiguous/unambiguous.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unclear/unclear.py" beforeDir="false" afterPath="$PROJECT_DIR$/unclear/unclear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/SemanticsHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/SemanticsHandler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="826">
+            <state relative-caret-position="757">
               <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
             </state>
           </provider>
@@ -42,20 +33,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="154">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="161">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -86,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/t1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="420">
               <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
@@ -120,6 +114,7 @@
       <find>range</find>
       <find>main_</find>
       <find>97</find>
+      <find>str</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,14 +144,14 @@
         <option value="$PROJECT_DIR$/test/t2.py" />
         <option value="$PROJECT_DIR$/core/NaturalLanguageRecognizer.py" />
         <option value="$PROJECT_DIR$/core/DefaultLanguageRecognizer.py" />
-        <option value="$PROJECT_DIR$/core/SemanticsHandler.py" />
         <option value="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" />
+        <option value="$PROJECT_DIR$/core/SemanticsHandler.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="-10" />
+    <option name="y" value="1" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -166,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +187,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608330570312</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added few classes for sequential text text processing">
+      <created>1608507580005</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608507580005</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -431,12 +433,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,7 +457,8 @@
     <MESSAGE value="add some todos" />
     <MESSAGE value="sentence splitter refactoring" />
     <MESSAGE value="sentence labeler refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="sentence labeler refactoring" />
+    <MESSAGE value="added few classes for sequential text text processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="added few classes for sequential text text processing" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -486,27 +489,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/t1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/duplicates/duplicates.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/t2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/ReqSeparator.py">
@@ -516,17 +499,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
+    <entry file="file://$PROJECT_DIR$/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/t1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        <state relative-caret-position="420">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
+    <entry file="file://$PROJECT_DIR$/test/t2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -537,10 +523,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="161">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

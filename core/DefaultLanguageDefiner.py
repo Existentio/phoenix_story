@@ -11,23 +11,21 @@ ru_alphabet += 'ё'
 
 class DefaultLanguageDefiner:
     default_language = 'eng'
-    sentence = ''
 
-    def __init__(self, str):
-        self.sentence = str
-
-    sentence = sentence.replace(' ', '')
-
-    counter = 0
-
-    for x in sentence:
-        if x in eng_alphabet:
-            counter += 1
-
-    eng_words_percentage = counter / len(sentence)
+    def __init__(self, sentence):
+        self.sentence = sentence.replace(' ', '')
 
     def define_default_language(self):
-        return 'eng' if self.eng_words_percentage > 0.5 else 'ru'
+        print('============\ninput sentence: ' + self.sentence)
+        counter = 0
+        eng_words_percentage = 0
 
-    print(eng_words_percentage)
-    print(define_default_language())
+        for x in self.sentence:
+            if x in eng_alphabet:
+                counter += 1
+
+        eng_words_percentage = counter / len(self.sentence)
+        print('count of eng words: ' + str(counter))
+        print('eng words percentage: ' + str(eng_words_percentage))
+
+        return 'eng' if eng_words_percentage > 0.5 else 'ru'

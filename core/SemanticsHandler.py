@@ -8,5 +8,5 @@ class SemanticsHandler:
 
     print('\nmain sentence: ', main_sentence)
 
-    t = DefaultLanguageDefiner.define_default_language(DefaultLanguageDefiner('ss'))
-
+    t = DefaultLanguageDefiner(main_sentence)
+    print(t.define_default_language())
