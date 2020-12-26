@@ -18,7 +18,6 @@ class DefaultLanguageDefiner:
     def define_default_language(self):
         print('============\ninput sentence: ' + self.sentence)
         counter = 0
-        eng_words_percentage = 0
 
         for x in self.sentence:
             if x in eng_alphabet:
