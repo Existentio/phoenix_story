@@ -3,16 +3,14 @@ from core.DefaultLanguageDefiner import DefaultLanguageDefiner
 
 
 class SemanticsHandler:
+
     sentence_labeler = SentenceLabeler()
     main_sentence = SentenceLabeler.detach_main_sentence(sentence_labeler)
+    default_language = DefaultLanguageDefiner(main_sentence).define_default_language()
 
-    print('\nmain sentence: ', main_sentence)
 
-    default_language = DefaultLanguageDefiner(main_sentence)
-    print(default_language.define_default_language())
-
-    def define_language_rules(self, default_language):
-        self.define_ru_rules() if default_language == 'ru' else self.define_eng_rules()
+    def define_language_rules(self):
+        self.define_ru_rules() if self.default_language == 'ru' else self.define_eng_rules()
 
     def define_eng_rules(self):
         print('eng rules has been defined')
@@ -20,6 +18,6 @@ class SemanticsHandler:
     def define_ru_rules(self):
         print('ru rules has been defined')
 
-    define_ru_rules()
 
-    define_language_rules(default_language)
+semantics_handler = SemanticsHandler()
+print(semantics_handler.define_language_rules())

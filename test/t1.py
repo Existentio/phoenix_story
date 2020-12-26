@@ -31,3 +31,22 @@ for x in t:
     z[counter] = t.values()
 
 print(z)
+
+a = 400
+b = 400
+print(id(a) == id(b))
+
+print(hex(12345))
+
+
+class test:
+    t = 'asd'
+
+    def s(self, t):
+        print('AAAAAA')
+
+
+test().s(t)
+
+        # semantics_handler = test()
+        # semantics_handler.s()
