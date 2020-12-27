@@ -3,15 +3,14 @@ Labeler parts of your sentence for further processing
 
 """
 
-req_sample = '1. According to 1.2.3.4 system must .. do it 20 times,  2.3.3.5.6.643 and it should take <= 0.5 seconds.'
+# req_sample = '1. According to 1.2.3.4 system must .. do it 20 times,  2.3.3.5.6.643 and it should take <= 0.5 seconds.'
+req_sample = '1. Согласно п. 1.2.3.4 система должна .. выполнив операцию 20 раз,  2.3.3.5.6.643 и это должно занять <= 0.5 секунд.'
 
 # list of simple numbers [convert list of int to list of sentence]
 simple_numbers = [str(x) for x in list(range(0, 100))]
 
-# punctuation marks
 punctuation_marks = [',', '.', ':', ';']
 
-#
 starters = ['Мр.']
 
 # label for sentence element
@@ -37,7 +36,6 @@ class SentenceLabeler:
 
         for symb in req_sample:
             if (req_sample[(req_sample.index(symb))]) in punctuation_marks:
-
                 print('here is punctuation mark, moving next: ' + symb)
                 sentence_with_labels += (req_sample[(req_sample.index(symb))])
 
@@ -54,7 +52,6 @@ class SentenceLabeler:
 
             else:
                 print('here is sentence character, moving next: ' + symb)
-
                 sentence_with_labels += (req_sample[(req_sample.index(symb))])
 
         return sentence_with_labels.strip()

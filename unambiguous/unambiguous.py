@@ -1,4 +1,4 @@
 '''
-Each requirement should not be unambiguous
+Each requirement should be unambiguous
 
 '''
