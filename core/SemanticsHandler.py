@@ -19,3 +19,6 @@ class SemanticsHandler:
 
 semantics_handler = SemanticsHandler()
 print(semantics_handler.define_language_rules())
+
+
+#todo add stop words
