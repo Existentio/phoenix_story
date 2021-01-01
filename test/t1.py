@@ -9,28 +9,10 @@
 # print(set_a.intersection(set_b))
 #
 #
+import re
 
-test_sentence = 'it should take no more'
+from core.data.stop_words.StopWordsManager import StopWordsManager
 
-# it   should   sentence_labeler  a  k  e
-# 01 2 345678 9 10 11 12 13
-for x in range(len(test_sentence)):
-    if test_sentence[x] == ' ':
-        print(x)
-        print('here is whitespace')
-
-    print(test_sentence[x])
-
-t = {1: 'main_sentence_without_req_id', 2: 'sentence_labeler'}
-s = []
-
-z = {}
-counter = 0
-for x in t:
-    counter += 1
-    z[counter] = t.values()
-
-print(z)
 
 a = 400
 b = 400
@@ -39,14 +21,15 @@ print(id(a) == id(b))
 print(hex(12345))
 
 
-class test:
-    t = 'asd'
+query = 'я думаю это что-то интересное'
+stopwords = StopWordsManager().get_redundant_words()
+resultwords = [word for word in re.split("\W+", query) if word.lower() not in stopwords]
 
-    def s(self, t):
-        print('AAAAAA')
+result = ''
 
+for word in re.split("\W+", query):
+    if word.lower() not in stopwords:
+        print(word)
+        result += word + " "
 
-test().s(t)
-
-        # semantics_handler = test()
-        # semantics_handler.abs_path()
+print(result)

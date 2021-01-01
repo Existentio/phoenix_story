@@ -4,7 +4,7 @@ Labeler parts of your sentence for further processing
 """
 
 # req_sample = '1. According to 1.2.3.4 system must .. do it 20 times,  2.3.3.5.6.643 and it should take <= 0.5 seconds.'
-req_sample = '1. Согласно п. 1.2.3.4 система должна .. выполнив операцию 20 раз,  2.3.3.5.6.643 и это должно занять <= 0.5 секунд.'
+req_sample = '1. Я думаю , согласно п. 1.2.3.4 система должна .. выполнив операцию 20 раз,  2.3.3.5.6.643 и это должно занять <= 0.5 секунд.'
 
 # list of simple numbers [convert list of int to list of sentence]
 simple_numbers = [str(x) for x in list(range(0, 100))]
