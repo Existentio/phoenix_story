@@ -1,5 +1,10 @@
+import os
+
 from core.SentenceLabeler import SentenceLabeler
 from core.DefaultLanguageDefiner import DefaultLanguageDefiner
+import pkgutil
+
+from core.data.stop_words.DataManager import DataManager
 
 
 class SemanticsHandler:
@@ -16,9 +21,12 @@ class SemanticsHandler:
     def define_ru_rules(self):
         print('ru rules has been defined')
 
+    def remove_redundant_words(self):
+        redundant_words = DataManager().get_redundant_words()
+        print(redundant_words)
+
+
 
 semantics_handler = SemanticsHandler()
 print(semantics_handler.define_language_rules())
-
-
-#todo add stop words
+semantics_handler.remove_redundant_words()
