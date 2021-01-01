@@ -6,6 +6,10 @@ from core.data.stop_words.StopWordsManager import StopWordsManager
 
 
 class SemanticsHandler:
+    """
+    Main class for sentence proccessing and converts sentence to requirement.
+    """
+
     sentence_labeler = SentenceLabeler()
     main_sentence = SentenceLabeler.detach_main_sentence(sentence_labeler)
     default_language = DefaultLanguageDefiner(main_sentence).define_default_language()
@@ -20,7 +24,7 @@ class SemanticsHandler:
         print('ru rules has been defined')
 
     def remove_redundant_words(self):
-        redundant_words = StopWordsManager().get_redundant_words()
+        redundant_words = StopWordsManager().get_redundant_words(self.default_language)
         result = ''
         print('\n===============')
         for word in re.split(" ", self.main_sentence):

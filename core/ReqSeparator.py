@@ -11,6 +11,10 @@ test_req_1 = 'При первом открытии а п.1.23приложени�
 # todo for future functionality: add notification if requirement
 #  is more than X symbols [offer to divide into 2 reqs and so on]
 
+class ReqSeparator():
+    """
+    Separates requirements for cleaning and improving each requirement.
+    """
 
-def divide_req(req: str):
-    pass
+    def divide_req(req: str):
+        pass

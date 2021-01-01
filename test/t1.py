@@ -21,15 +21,6 @@ print(id(a) == id(b))
 print(hex(12345))
 
 
-query = 'я думаю это что-то интересное'
-stopwords = StopWordsManager().get_redundant_words()
-resultwords = [word for word in re.split("\W+", query) if word.lower() not in stopwords]
+s = ['1', '1']
 
-result = ''
 
-for word in re.split("\W+", query):
-    if word.lower() not in stopwords:
-        print(word)
-        result += word + " "
-
-print(result)

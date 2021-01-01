@@ -1,3 +1,8 @@
 
 class ReqConnector:
-    print()
+    """
+    Connects processed requirements for output.
+    """
+
+    def append_reqs(self):
+        pass
