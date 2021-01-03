@@ -9,9 +9,6 @@
 # print(set_a.intersection(set_b))
 #
 #
-import re
-
-from core.data.stop_words.StopWordsManager import StopWordsManager
 
 
 a = 400

@@ -12,9 +12,7 @@ test_req_1 = 'При первом открытии а п.1.23приложени�
 #  is more than X symbols [offer to divide into 2 reqs and so on]
 
 class ReqSeparator():
-    """
-    Separates requirements for cleaning and improving each requirement.
-    """
+    """Separates requirements for cleaning and improving each requirement."""
 
-    def divide_req(req: str):
+    def divide_reqs(self):
         pass

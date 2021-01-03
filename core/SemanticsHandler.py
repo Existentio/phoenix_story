@@ -2,17 +2,19 @@ import re
 
 from core.DefaultLanguageDefiner import DefaultLanguageDefiner
 from core.SentenceLabeler import SentenceLabeler
-from core.data.stop_words.StopWordsManager import StopWordsManager
+from core.data.StopWordsManager import StopWordsManager
 
 
 class SemanticsHandler:
-    """
-    Main class for sentence proccessing and converts sentence to requirement.
-    """
+    """Main class for sentence proccessing and converting sentence to requirement."""
 
-    sentence_labeler = SentenceLabeler()
-    main_sentence = SentenceLabeler.detach_main_sentence(sentence_labeler)
-    default_language = DefaultLanguageDefiner(main_sentence).define_default_language()
+    def __init__(self, sentence):
+        print('\n===============Semantics handler initialized===============')
+        self.sentence = sentence
+        self.requirement = ''
+        self.unclear_words = []
+        self.swm = StopWordsManager()
+        self.default_language = DefaultLanguageDefiner(self.sentence).define_default_language()
 
     def define_language_rules(self):
         self.define_ru_rules() if self.default_language == 'ru' else self.define_eng_rules()
@@ -24,15 +26,25 @@ class SemanticsHandler:
         print('ru rules has been defined')
 
     def remove_redundant_words(self):
-        redundant_words = StopWordsManager().get_redundant_words(self.default_language)
-        result = ''
-        print('\n===============')
-        for word in re.split(" ", self.main_sentence):
+        redundant_words = self.swm.get_redundant_words(self.default_language)
+        for word in re.split(" ", self.sentence):
             if word.lower() not in redundant_words:
-                result += word + " "
-        return result
+                self.requirement += word + " "
+        return self.requirement
+
+    def show_unclear_words(self):
+        unclear_words = self.swm.get_unclear_words(self.default_language)
+        for word in re.split(" ", self.requirement):
+            if word.lower() in unclear_words:
+                self.unclear_words.append(word)
+        return self.unclear_words
 
 
-semantics_handler = SemanticsHandler()
-print(semantics_handler.define_language_rules())
+sentence_labeler = SentenceLabeler()
+sentence = SentenceLabeler.detach_main_sentence(sentence_labeler)
+
+semantics_handler = SemanticsHandler(sentence)
+semantics_handler.define_language_rules()
+print(semantics_handler.sentence)
 print(semantics_handler.remove_redundant_words())
+print(semantics_handler.show_unclear_words())

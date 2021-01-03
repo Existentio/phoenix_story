@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2d0113cc-e707-4e02-9f41-6ac197827235" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/ReqConnector.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ReqConnector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/ReqSeparator.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/ReqSeparator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/SemanticsHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/SemanticsHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/SentenceLabeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/SentenceLabeler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/data/stop_words/StopWordsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/data/stop_words/StopWordsManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/data/stop_words/StopWordsManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/data/StopWordsManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/data/stop_words/unclear/russian" beforeDir="false" afterPath="$PROJECT_DIR$/core/data/stop_words/unclear/russian" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/t1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/t1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            <state relative-caret-position="-147">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,10 +32,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-919417965/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="4945" column="8" selection-start-line="4945" selection-start-column="8" selection-end-line="4945" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/ReqSeparator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="196">
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -43,43 +57,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            <state relative-caret-position="308">
+              <caret line="22" column="65" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/t1.py">
+        <entry file="file://$PROJECT_DIR$/core/data/StopWordsManager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-              <folding>
-                <element signature="e#119#128#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="259">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/data/stop_words/StopWordsManager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/data/stop_words/unclear/english">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/data/stop_words/unclear/russian">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -87,8 +84,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/ReqConnector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="28">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/data/stop_words/redundant/russian">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -96,15 +102,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="42">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -142,6 +143,7 @@
       <find>windows</find>
       <find>UnicodeEncodeError</find>
       <find>pattern</find>
+      <find>можно</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,17 +176,20 @@
         <option value="$PROJECT_DIR$/data/stop_words/redundant/russian" />
         <option value="$PROJECT_DIR$/data/stop_words/t.py" />
         <option value="$PROJECT_DIR$/core/data/stop_words/t.py" />
-        <option value="$PROJECT_DIR$/core/data/stop_words/redundant/russian" />
         <option value="$PROJECT_DIR$/test/t2.py" />
         <option value="$PROJECT_DIR$/core/t1.py" />
         <option value="$PROJECT_DIR$/core/data/stop_words/DataManager.py" />
         <option value="$PROJECT_DIR$/test/t1.py" />
         <option value="$PROJECT_DIR$/core/DefaultLanguageDefiner.py" />
+        <option value="$PROJECT_DIR$/core/data/stop_words/StopWordsLoader.py" />
+        <option value="$PROJECT_DIR$/core/data/stop_words/StopWordsManager.py" />
         <option value="$PROJECT_DIR$/core/ReqConnector.py" />
         <option value="$PROJECT_DIR$/core/ReqSeparator.py" />
+        <option value="$PROJECT_DIR$/core/data/stop_words/unclear/russian" />
+        <option value="$PROJECT_DIR$/core/data/stop_words/redundant/russian" />
         <option value="$PROJECT_DIR$/core/SentenceLabeler.py" />
+        <option value="$PROJECT_DIR$/core/data/StopWordsManager.py" />
         <option value="$PROJECT_DIR$/core/SemanticsHandler.py" />
-        <option value="$PROJECT_DIR$/core/data/stop_words/StopWordsManager.py" />
       </list>
     </option>
   </component>
@@ -199,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,18 +233,15 @@
             <path>
               <item name="phoenix_story" type="b2602c69:ProjectViewProjectNode" />
               <item name="PhoenixStory" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoenix_story" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PhoenixStory" type="462c0819:PsiDirectoryNode" />
-              <item name="unambiguous" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="stop_words" type="462c0819:PsiDirectoryNode" />
+              <item name="unclear" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,19 +251,19 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\data" />
+      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core" />
+      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\data\stop_words" />
+      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\d" />
+      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\data\stop_words\negations" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core" />
       <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\data" />
       <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory" />
       <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\stop_words\unclear" />
       <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\stop_words\artistic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\data\stop_words" />
-      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core" />
-      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\data" />
-      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\d" />
-      <recent name="C:\Users\Existentio\PycharmProjects\PhoenixStory\data\stop_words\negations" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,48 +279,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.SemanticsHandler">
-    <configuration name="DataManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="phoenix_story" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core/data/stop_words" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\data\stop_words\StopWordsManager.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ReqSeparator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="phoenix_story" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/ReqSeparator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="SemanticsHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="phoenix_story" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -331,6 +292,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/SemanticsHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SentenceLabeler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="phoenix_story" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/core/SentenceLabeler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StopWordsManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="phoenix_story" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/core" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Existentio\PycharmProjects\PhoenixStory\core\data\StopWordsManager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -405,10 +408,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.SemanticsHandler" />
+        <item itemvalue="Python.StopWordsManager" />
+        <item itemvalue="Python.SentenceLabeler" />
         <item itemvalue="Python.t1" />
         <item itemvalue="Python.t1 (1)" />
-        <item itemvalue="Python.DataManager" />
-        <item itemvalue="Python.ReqSeparator" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609539702500</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="few fixes">
+      <created>1609542600211</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609542600211</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -558,12 +568,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.3281471" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993395" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,7 +601,8 @@
     <MESSAGE value="added data manager class,&#10;happy new year commit!" />
     <MESSAGE value="few refactoring changes, happy new year commit!" />
     <MESSAGE value="getting rid of redundant trash-words now available, see changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting rid of redundant trash-words now available, see changes" />
+    <MESSAGE value="few fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="few fixes" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -619,9 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/russian">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/russian" />
     <entry file="file://$PROJECT_DIR$/unclear/unclear.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -650,9 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/d/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/d/__init__.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/pkgutil.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -677,26 +684,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/d/z">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/data/stop_words/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-919417965/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="273" column="49" lean-forward="true" selection-start-line="273" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/d/z" />
+    <entry file="file://$PROJECT_DIR$/core/data/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/core/data/stop_words/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1841">
@@ -704,22 +694,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/redundant/english">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/core/redundant/english" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="212" column="27" selection-start-line="212" selection-start-column="20" selection-end-line="212" selection-end-column="27" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/typing.py">
@@ -732,22 +712,12 @@
     <entry file="file://$PROJECT_DIR$/test/t2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/data/stop_words/redundant/russian">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/t1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duplicates/duplicates.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/data/stop_words/redundant/english">
       <provider selected="true" editor-type-id="text-editor" />
@@ -756,16 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/ReqConnector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -779,51 +739,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/ReqSeparator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/data/stop_words/unclear/english">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/data/stop_words/unclear/russian">
+    <entry file="file://$PROJECT_DIR$/duplicates/duplicates.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="308">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ReqSeparator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/data/stop_words/redundant/russian">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-919417965/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="4945" column="8" selection-start-line="4945" selection-start-column="8" selection-end-line="4945" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="42">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/ReqConnector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/data/stop_words/unclear/russian">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/data/StopWordsManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        <state relative-caret-position="-147">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/data/stop_words/StopWordsManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
