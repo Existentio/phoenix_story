@@ -42,6 +42,8 @@ class SemanticsHandler:
         for word in self.requirement.split():
             if word.lower() in unclear_words:
                 self.unclear_words.append(word)
+
+    def get_unclear_words(self):
         return self.unclear_words
 
 
@@ -53,3 +55,5 @@ semantics_handler.define_language_rules()
 print(semantics_handler.sentence)
 print(semantics_handler.remove_redundant_words())
 print(semantics_handler.extract_unclear_words())
+print(semantics_handler.get_unclear_words())
+

@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-262">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="298">
+              <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -558,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609633466882</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="method for extracting unclear words from requirement fixed">
+      <created>1609711118665</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609711118665</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -609,7 +616,8 @@
     <MESSAGE value="getting rid of redundant trash-words now available, see changes" />
     <MESSAGE value="few fixes" />
     <MESSAGE value="a few refactoring, added method for getting unclear words from input" />
-    <option name="LAST_COMMIT_MESSAGE" value="a few refactoring, added method for getting unclear words from input" />
+    <MESSAGE value="method for extracting unclear words from requirement fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="method for extracting unclear words from requirement fixed" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -775,13 +783,6 @@
     <entry file="file://$PROJECT_DIR$/core/StructureHandler.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/data/StopWordsManager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/DefaultLanguageDefiner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -803,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="176" selection-start-line="3" selection-start-column="176" selection-end-line="3" selection-end-column="176" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/ReqSeparator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -817,10 +811,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/data/StopWordsManager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="176" selection-start-line="3" selection-start-column="176" selection-end-line="3" selection-end-column="176" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/SemanticsHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="298">
+          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
