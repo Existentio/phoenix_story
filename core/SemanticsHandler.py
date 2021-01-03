@@ -8,6 +8,11 @@ from core.data.StopWordsManager import StopWordsManager
 class SemanticsHandler:
     """Main class for sentence proccessing and converting sentence to requirement."""
 
+    test = 'Я , согласно п. система иногда должна .. выполнив операцию раз, прочитав быть что и это должно занять <= секунд.'
+
+    # requirement = ''
+    # unclear_words = []
+
     def __init__(self, sentence):
         print('\n===============Semantics handler initialized===============')
         self.sentence = sentence
@@ -27,14 +32,14 @@ class SemanticsHandler:
 
     def remove_redundant_words(self):
         redundant_words = self.swm.get_redundant_words(self.default_language)
-        for word in re.split(" ", self.sentence):
+        for word in self.sentence.split():
             if word.lower() not in redundant_words:
                 self.requirement += word + " "
         return self.requirement
 
-    def show_unclear_words(self):
+    def extract_unclear_words(self):
         unclear_words = self.swm.get_unclear_words(self.default_language)
-        for word in re.split(" ", self.requirement):
+        for word in self.requirement.split():
             if word.lower() in unclear_words:
                 self.unclear_words.append(word)
         return self.unclear_words
@@ -47,4 +52,4 @@ semantics_handler = SemanticsHandler(sentence)
 semantics_handler.define_language_rules()
 print(semantics_handler.sentence)
 print(semantics_handler.remove_redundant_words())
-print(semantics_handler.show_unclear_words())
+print(semantics_handler.extract_unclear_words())
