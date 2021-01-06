@@ -19,12 +19,11 @@ label_uml_modifier = 'UML_MODIFIER'
 
 time_units = ['секунд', 'минут', 'час', 'день']
 
+
 class SentenceLabeler:
     """Labels sentence parts."""
 
-
     # todo need label sentence for separating req identifiers from words
-
 
     def __init__(self):
         self.swm = StopWordsManager()
@@ -44,14 +43,14 @@ class SentenceLabeler:
                         print('it is time unit: ', req_sample.split()[x + 1])
                         sentence_with_labels += req_sample.split()[x] + ' '
                     else:
-                        print('it is req id', req_sample.split()[x])
+                        print('it is req id: ', req_sample.split()[x])
                         sentence_with_labels += label_req_id_end + ' '
                     cnt_ext = 0
             except IndexError:
                 print('got index error', req_sample.split()[x])
                 pass
             if len(req_sample.split()[x]) == 1 and req_sample.split()[x] == '.':
-                print('it is an end sentence dot: ', req_sample.split()[x])
+                print('it is end sentence dot: ', req_sample.split()[x])
             if cnt_ext == 2:
                 cnt_int = 0
                 for y in range(len(req_sample.split()[x])):
@@ -69,16 +68,17 @@ class SentenceLabeler:
                     if req_sample.split()[x][y] in numbers:
                         cnt_int += 1
                     if cnt_int == 1 and req_sample.split()[x][y - 1] == '.':
-                        print('it is a typo: ', req_sample.split()[x])
+                        print('it is typo: ', req_sample.split()[x])
                         sentence_with_labels += req_sample.split()[x] + ' '
                         break
                     if cnt_int == 1:
-                        print('it is a req id: ', req_sample.split()[x])
+                        print('it is req id: ', req_sample.split()[x])
                         sentence_with_labels += label_req_id_end + ' '
                         break
                     cnt_ext = 0
             else:
                 sentence_with_labels += req_sample.split()[x] + ' '
+
         return sentence_with_labels
 
     def bind_sentence_words_with_ids(self):

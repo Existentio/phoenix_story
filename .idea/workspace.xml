@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d0113cc-e707-4e02-9f41-6ac197827235" name="Default Changelist" comment="getter for unclear words added">
-      <change afterPath="$PROJECT_DIR$/core/data/stop_words/time_unit/english" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/data/stop_words/time_unit/russian" afterDir="false" />
+    <list default="true" id="2d0113cc-e707-4e02-9f41-6ac197827235" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/SentenceLabeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/SentenceLabeler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/t1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="340">
+              <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -576,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609711551350</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="sentence labeler refactoring">
+      <created>1609972555135</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609972555135</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -592,12 +596,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.167107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.167107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49867898" visible="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49867898" visible="true" weight="0.3281471" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,7 +659,6 @@
     <MESSAGE value="first version" />
     <MESSAGE value="add some todos" />
     <MESSAGE value="sentence splitter refactoring" />
-    <MESSAGE value="sentence labeler refactoring" />
     <MESSAGE value="added few classes for sequential text text processing" />
     <MESSAGE value="language definer fixed" />
     <MESSAGE value="added blank for furher lang processing" />
@@ -669,7 +672,8 @@
     <MESSAGE value="a few refactoring, added method for getting unclear words from input" />
     <MESSAGE value="method for extracting unclear words from requirement fixed" />
     <MESSAGE value="getter for unclear words added" />
-    <option name="LAST_COMMIT_MESSAGE" value="getter for unclear words added" />
+    <MESSAGE value="sentence labeler refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="sentence labeler refactoring" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -888,8 +892,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/SentenceLabeler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="340">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
