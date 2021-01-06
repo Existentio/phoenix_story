@@ -1,21 +1,20 @@
 # req_sample = '1. According to 1.2.3.4 system must .. do it 20 times,  2.3.3.5.6.643 and it should take <= 0.5 seconds.'
 from core.data.StopWordsManager import StopWordsManager
 
-req_sample = '1. Я думаю , согласно п. 1.2.3.4 система иногда должна .. выполнив операцию 20 раз, прочитав система быть ясно что 2.3.3.5.6.643 и это должно занять <= 0.5 секунд.'
+req_sample = '1. Я, Мр. Смит, думаю , что согласно п. 1.2.3.4 система система иногда должна делать .. и выполнив операцию 20 раз, должно быть ясно, что в п. 2.3.3.5.6.643 считаю есть ошибка, и это должно занимать <= 0.5 секунд. '
 
 # list of simple numbers [convert list of int to list of sentence]
 numbers = [str(x) for x in list(range(0, 100))]
 
 punctuation_marks = [',', '.', ':', ';']
 
-starters = ['Мр.']
+starters = ['Мр.', 'Мисс.']
 
 # label for sentence element
-label_req_id_start = 'REQ_ID_START'
-label_req_id_end = 'REQ_ID_END'
-label_req_main_sentence_start = 'MAIN_START'
-label_req_main_sentence_end = 'MAIN_END'
-label_uml_modifier = 'UML_MODIFIER'
+label_req_id = '[REQ_ID]'
+label_req_main_sentence_start = '[MAIN_START]'
+label_req_main_sentence_end = '[MAIN_END]'
+label_uml_modifier = '[UML_MODIFIER]'
 
 time_units = ['секунд', 'минут', 'час', 'день']
 
@@ -37,15 +36,23 @@ class SentenceLabeler:
                 if y == '.':
                     cnt_ext += 1
             try:
+                cnt_int = 0
                 if cnt_ext == 1:
                     if (req_sample.split()[x + 1] in time_units) \
                             or (req_sample.split()[x + 1][:len(req_sample.split()[x + 1]) - 1] in time_units):
                         print('it is time unit: ', req_sample.split()[x + 1])
                         sentence_with_labels += req_sample.split()[x] + ' '
-                    else:
-                        print('it is req id: ', req_sample.split()[x])
-                        print(sentence_with_labels)
-                        sentence_with_labels += label_req_id_end + ' '
+
+                    for y in range(len(req_sample.split()[x])):
+                        if req_sample.split()[x][y] in numbers:
+                            cnt_int += 1
+                        if cnt_int == 1:
+                            print('it is req id: ', req_sample.split()[x])
+                            sentence_with_labels += label_req_id
+                            break
+                        else:
+                            sentence_with_labels += req_sample.split()[x] + ' '
+                        cnt_int = 0
                     cnt_ext = 0
             except IndexError:
                 print('got index error', req_sample.split()[x])
@@ -62,6 +69,9 @@ class SentenceLabeler:
                     if cnt_int == 4 and req_sample.split()[x][y] in numbers:
                         print('it is uml modifier: ', req_sample.split()[x])
                         sentence_with_labels += req_sample.split()[x] + ' '
+                    else:
+                        print('it is a typo: ', req_sample.split()[x])
+                        sentence_with_labels += req_sample.split()[x] + ' '
                 cnt_ext = 0
             elif cnt_ext > 2:
                 cnt_int = 0
@@ -74,13 +84,12 @@ class SentenceLabeler:
                         break
                     if cnt_int == 1:
                         print('it is req id: ', req_sample.split()[x])
-                        sentence_with_labels += label_req_id_end + ' '
+                        sentence_with_labels += req_sample.split()[x] + label_req_id + ' '
                         break
                     cnt_ext = 0
             else:
                 sentence_with_labels += req_sample.split()[x] + ' '
-                # print(sentence_with_labels += req_sample.split()[x])
-                print('LOOK', sentence_with_labels)
+                print('counter', cnt_ext, req_sample.split()[x])
                 # cnt_ext = 0
 
         return sentence_with_labels
@@ -102,13 +111,13 @@ class SentenceLabeler:
         dict_labeled_str = self.bind_sentence_words_with_ids()
 
         for x in dict_labeled_str:
-            if dict_labeled_str[x].find(label_req_id_end) == -1:
+            if dict_labeled_str[x].find(label_req_id) == -1:
                 main_sentence_without_req_id += dict_labeled_str[x] + ' '
             else:
                 # print(dict_labeled_str[x])
                 pass
         #
-        # print(main_sentence_without_req_id)
+        print(main_sentence_without_req_id)
         return main_sentence_without_req_id
 
 
