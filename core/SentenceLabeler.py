@@ -44,6 +44,7 @@ class SentenceLabeler:
                         sentence_with_labels += req_sample.split()[x] + ' '
                     else:
                         print('it is req id: ', req_sample.split()[x])
+                        print(sentence_with_labels)
                         sentence_with_labels += label_req_id_end + ' '
                     cnt_ext = 0
             except IndexError:
@@ -78,6 +79,9 @@ class SentenceLabeler:
                     cnt_ext = 0
             else:
                 sentence_with_labels += req_sample.split()[x] + ' '
+                # print(sentence_with_labels += req_sample.split()[x])
+                print('LOOK', sentence_with_labels)
+                # cnt_ext = 0
 
         return sentence_with_labels
 
@@ -101,15 +105,16 @@ class SentenceLabeler:
             if dict_labeled_str[x].find(label_req_id_end) == -1:
                 main_sentence_without_req_id += dict_labeled_str[x] + ' '
             else:
-                print(dict_labeled_str[x])
-
-        print(main_sentence_without_req_id)
+                # print(dict_labeled_str[x])
+                pass
+        #
+        # print(main_sentence_without_req_id)
         return main_sentence_without_req_id
 
 
 sl = SentenceLabeler()
 
-print(sl.define_sentence_labels())
+# print(sl.define_sentence_labels())
 
 print('====\n')
 sl.detach_main_sentence()
