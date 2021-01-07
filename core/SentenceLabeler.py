@@ -40,10 +40,8 @@ class SentenceLabeler:
             try:
                 if cnt_ext == 1:
                     if (self.sentence.split()[x + 1] in self.swm.get_time_units(self.lang)) \
-                            or (
-                            self.sentence.split()[x + 1][
-                            :len(self.sentence.split()[x + 1]) - 1] in self.swm.get_time_units(
-                        self.lang)):
+                            or (self.sentence.split()[x + 1][:len(self.sentence.split()[x + 1]) - 1]
+                                in self.swm.get_time_units(self.lang)):
                         sentence_with_labels += self.sentence.split()[x] + ' '
                         print('it is time unit: ', self.sentence.split()[x + 1])
                     for y in range(len(self.sentence.split()[x])):
