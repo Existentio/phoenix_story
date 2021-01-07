@@ -1,5 +1,3 @@
-import re
-
 from core.DefaultLanguageDefiner import DefaultLanguageDefiner
 from core.SentenceLabeler import SentenceLabeler
 from core.data.StopWordsManager import StopWordsManager
@@ -42,7 +40,9 @@ class SemanticsHandler:
         return self.unclear_words
 
 
-sentence_labeler = SentenceLabeler()
+req_sample = '1. Я, Мр. Смит, думаю , что согласно п. 1.2.3.4 система система иногда должна делать и ?. .. ,,,  выполнив операцию 0..10 или 20 раз, должно быть ясно, что в п. 2.3.3.5.6.643 считаю есть ошибка, и это должно занимать <= 0.5 секунд. '
+
+sentence_labeler = SentenceLabeler(req_sample)
 sentence = SentenceLabeler.detach_main_sentence(sentence_labeler)
 
 semantics_handler = SemanticsHandler(sentence)

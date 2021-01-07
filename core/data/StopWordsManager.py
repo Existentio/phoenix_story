@@ -29,3 +29,15 @@ class StopWordsManager():
             dir_path = open(abs_path, 'r', encoding='utf-8')
             unclear_words = dir_path.read().split("\n")
         return unclear_words
+
+    def get_time_units(self, lang):
+        time_units = []
+        if lang == 'ru':
+            abs_path = os.path.abspath("data/stop_words/time_unit/russian")
+            dir_path = open(abs_path, 'r', encoding='utf-8')
+            time_units = dir_path.read().split("\n")
+        elif lang == 'eng':
+            abs_path = os.path.abspath("data/stop_words/time_unit/english")
+            dir_path = open(abs_path, 'r', encoding='utf-8')
+            time_units = dir_path.read().split("\n")
+        return time_units
