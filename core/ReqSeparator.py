@@ -9,7 +9,14 @@ test_req_1 = 'При первом открытии а п.1.23приложени�
 
 
 # todo for future functionality: add notification if requirement
-#  is more than X symbols [offer to divide into 2 reqs and so on]
+#  is more than X symbols, offer to divide into 2 reqs [i.e. if more than 90 symbols]
+
+# todo implement main algo for dividing input text to N sentences
+
+# todo divided sentences should have id , because of further sequential or parallel processing
+#  [labeling -> semantics handling -> structure handling, etc.
+
+
 
 class ReqSeparator():
     """Separates requirements for cleaning and improving each requirement."""
