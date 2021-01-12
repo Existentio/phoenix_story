@@ -1,10 +1,8 @@
 import os
 
 
-class StopWordsManager():
-    """
-    Extracts specific word lists for main processing.
-    """
+class StopWordsManager:
+    """Extracts specific word lists for main processing."""
 
     def get_redundant_words(self, lang):
         redundant_words = []

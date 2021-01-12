@@ -2,10 +2,9 @@ eng_alphabet = [chr(x) for x in range(ord('a'), ord('z') + 1)]
 ru_alphabet = [chr(x) for x in range(ord('а'), ord('я') + 1)]
 ru_alphabet += 'ё'
 
+
 class DefaultLanguageDefiner:
-    """
-    Identify natural language by default
-    """
+    """Identify natural language by default."""
 
     def __init__(self, sentence):
         self.sentence = sentence.replace(' ', '')
@@ -23,5 +22,3 @@ class DefaultLanguageDefiner:
         print('eng words percentage: ' + str(eng_words_percentage))
 
         return 'eng' if eng_words_percentage > 0.5 else 'ru'
-
-
