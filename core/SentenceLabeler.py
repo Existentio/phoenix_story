@@ -12,14 +12,12 @@ punctuation_marks = string.punctuation
 
 # label for sentence element
 label_req_id = '[REQ_ID]'
-label_uml_modifier = '[UML_MODIFIER]'
+label_uml_modifier = '[UML_MULTIPLICITY]'
 label_typo = '[TYPO]'
 
 
 class SentenceLabeler:
     """Labels sentence parts."""
-
-    # todo need label sentence for separating req identifiers from words
 
     def __init__(self, sentence):
         self.sentence = sentence
@@ -30,7 +28,7 @@ class SentenceLabeler:
         sentence_with_labels = ''
         cnt_ext = 0
 
-        # todo algo on 2 methods: 1 should get only useful parts like uml identifiers, main sentence
+        # todo algo on 2 methods: 1 should get only useful parts like uml multiplicities, main sentence, etc.
         #  and 2nd one should operate with trash
 
         for x in range(len(self.sentence.split())):
